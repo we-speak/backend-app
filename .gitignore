@@ -4,7 +4,9 @@ build/
 !gradle/wrapper/gradle-wrapper.jar
 !**/src/main/**/build/
 !**/src/test/**/build/
-
+.compose.yaml
+postgres_data
+src/main/resources/application.yml
 ### STS ###
 .apt_generated
 .classpath
