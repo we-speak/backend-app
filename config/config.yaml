@@ -1,0 +1,15 @@
+env: "prod"
+swagger_path": "../docs/swagger.json"
+
+http_server:
+  host: "localhost:8080"
+  timeout: 4s
+  idle_timeout: 60s
+
+database:
+  host: "localhost"
+  port: 5432
+  dbname: "authdb"
+  user: "postgres"
+  passsword: "postgres"
+  
